@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view id="home">
+  <view>我是首页</view>
+  <view>{{ text }}</view>
+  <view>引用外部方法获取本地时间{{ now }}</view>
+</view>
