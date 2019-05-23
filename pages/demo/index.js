@@ -1,13 +1,6 @@
-//index.js
-//获取应用实例
-import Utility from '../../utils/util'
-
-
 Page({
   data: {
-    text: '老子是首页的data',
-    now: Utility.formatTime(new Date()),
-    parentText: '我是从父组件传过来的值'
+    text: '这是demo页面'
   },
   onLoad(options) {
     // Do some initialize when page load.
@@ -44,9 +37,15 @@ Page({
     console.log(item.pagePath)
     console.log(item.text)
   },
-  goDemo() {
-    wx.navigateTo({
-      url: '/pages/demo/index'
+  // Event handler.
+  viewTap() {
+    this.setData({
+      text: 'Set some data for updating view.'
+    }, function () {
+      // this is setData callback
     })
+  },
+  customData: {
+    hi: 'MINA'
   }
 })

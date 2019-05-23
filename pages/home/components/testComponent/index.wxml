@@ -1,0 +1,4 @@
+<view class="test">
+  <view>这是一个子组件</view>
+  <view>父组件传过来的值是：{{ parentText }}</view>
+</view>
