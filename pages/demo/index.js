@@ -1,9 +1,16 @@
+import { userUpdate } from '../../store/index'
+
 Page({
   data: {
-    text: '这是demo页面'
+    text: '这是demo页面',
+    userInfo: {
+      name: '李四',
+      age: 12
+    }
   },
   onLoad(options) {
     // Do some initialize when page load.
+    console.log(wx.$store.getState())
   },
   onReady() {
     // Do something when page ready.
@@ -37,13 +44,17 @@ Page({
     console.log(item.pagePath)
     console.log(item.text)
   },
-  // Event handler.
-  viewTap() {
-    this.setData({
-      text: 'Set some data for updating view.'
-    }, function () {
-      // this is setData callback
-    })
+  changeUser() {
+    const userInfo = {
+      name: '王五',
+      age: 22
+    }
+    wx.$store.dispatch(
+      userUpdate(userInfo)
+    )
+  },
+  printState() {
+    console.log(wx.$store.getState())
   },
   customData: {
     hi: 'MINA'

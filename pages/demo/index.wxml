@@ -1,3 +1,5 @@
 <view id="demo">
   <view>{{ text }}</view>
+  <view bindtap="changeUser">修改state的值</view>
+  <view bindtap="printState">查看state的值（见控制台）</view>
 </view>

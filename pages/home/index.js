@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-import Utility from '../../utils/util'
+import Utility from '../../common/util'
 
 
 Page({
