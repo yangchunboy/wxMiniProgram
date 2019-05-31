@@ -1,0 +1,13 @@
+<view>
+  <van-submit-bar
+    price="{{ totalPrice }}"
+    button-text="提交订单"
+    bind:submit="submitOrder"
+    bar-class="shopcar-submit"
+    price-class="shopcarPrice"
+  >
+    <view class="selectAll">
+      <van-checkbox value="{{ isAllSelected }}" data-selected="{{ isAllSelected }}" bind:change="selectAll">全选</van-checkbox>
+    </view>
+  </van-submit-bar>
+</view>

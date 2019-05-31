@@ -1,0 +1,17 @@
+#shopCar {
+  width: 100%;
+  height: 100%;
+}
+
+.fillCartBottom {
+  width: 100%;
+  height: 100rpx;
+}
+
+.shopcarPrice {
+  color: red;
+}
+
+.selectAll {
+  padding-left: 24rpx;
+}

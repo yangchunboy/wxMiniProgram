@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "big.js": "^5.2.2",
     "chuck-wx-redux": "^1.0.1"
   }
 }

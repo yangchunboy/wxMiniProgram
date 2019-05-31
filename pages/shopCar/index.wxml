@@ -1,0 +1,14 @@
+<view id="shopCar">
+  <view wx:for="{{ productList }}" wx:key="item._id">
+    <cart-item
+      product="{{ item }}"
+      bind:add="add"
+      bind:reduce="reduce"
+      bind:select="select"
+    />
+  </view>
+  <submit-bar 
+    productList="{{ productList }}"
+    bind:selectAll="selectAll"
+  />
+</view>

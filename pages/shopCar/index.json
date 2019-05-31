@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-checkbox": "../../components/vant/checkbox/index",
+    "van-submit-bar": "../../components/vant/submit-bar/index",
+    "cart-item": "../../components/cartItem/index",
+    "submit-bar": "./submitBar/index"
+  }
+}

@@ -1,0 +1,99 @@
+@import "../../common/iconfont.wxss";
+
+.cartItem {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  padding: 24rpx;
+  background-color: white;
+}
+
+.select {
+  width: 70rpx;
+  flex: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.imgContainer {
+  width: 150rpx;
+  height: 150rpx;
+  flex: none;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  margin-right: 24rpx;
+}
+
+.detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-wrp {
+  margin-right: 60rpx;
+  position: relative;
+}
+
+.delete {
+  color: #999;
+  position: absolute;
+  right: -40rpx;
+  top: 0;
+}
+
+.name {
+  font-size: 30rpx;
+}
+.description {
+  font-size: 25rpx;
+  color: #222222;
+}
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: red;
+  font-size: 40rpx;
+}
+
+.add-button i {
+  font-size: 30px;
+}
+
+
+.add-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 40rpx;
+  bottom: 10rpx;
+  width: 154rpx;
+  height: 56rpx;
+  border-radius: 46rpx;
+  font-size: 24rpx;
+}
+
+.icon-reduce {
+  font-size: 54rpx;
+  color: #000000;
+}
+.icon-add {
+  font-size: 48rpx;
+  color: #f27050;
+}
+.cart-amount {
+  display: inline-block;
+  width: 100px;
+  text-align:center;
+}

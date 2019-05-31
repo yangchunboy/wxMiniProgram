@@ -1,0 +1,27 @@
+<view class="cartItem">
+  <view class="select" data-product="{{ product }}" catchtap="select" >
+    <van-checkbox value="{{ product.selected }}"></van-checkbox>
+  </view>
+  <view class="content">
+    <view class="imgContainer" style="background-image: url('https://www.baidu.com/img/bd_logo1.png');" ></view>
+    <view class="detail">
+      <view class="title-wrp">
+        <view class="name" >{{ product.name }}</view>
+        <view class="description">{{ product.descrption }}</view>
+        <view class="delete">
+          <i class="iconfont icon-delete"></i>
+        </view>
+      </view>
+      <view class="info">
+        <view class="price">￥{{ product.price }}</view>
+        <view class="shipping">
+          <view class="add-button">
+            <i class="iconfont icon-reduce" data-product="{{ product }}" catchtap="reduce"></i>
+            <text class="cart-amount">{{ product.amount }}</text>
+            <i class="iconfont icon-add" data-product="{{ product }}" catchtap="add"></i>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
