@@ -15,6 +15,7 @@ npm install
 ```
 [同时微信开发工具打开构建npm](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
 然后微信开发工具按下图配置
+
 ![微信开发工具配置.png](https://upload-images.jianshu.io/upload_images/3105621-ac889498458ba256.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
