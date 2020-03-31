@@ -34,6 +34,7 @@ pages //存放页面的入口
   /page //每个页面的入口
     /components //当前页面可公用的组件
 store // redux的文件存储
+theme // 存放公共样式和制图颜色的less
 ```
 ### 参考文档
 - [微信小程序开发指南](https://developers.weixin.qq.com/miniprogram/dev/)
