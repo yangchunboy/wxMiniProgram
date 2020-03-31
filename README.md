@@ -1,7 +1,7 @@
 # wxMiniProgram
 ### 支持功能
 
-1. 不支持预编译css（less等）
+1. 配置vscode的插件支持less
 2. 一个页面得分多个文件，wxml,wxss,json,js
 3. 官方支持，有问题可以在官方找到解决方案
 4. 支持npm
@@ -13,10 +13,15 @@
 ```javascript
 npm install
 ```
+[vscode配置less支持](https://blog.csdn.net/weixin_44218060/article/details/103904095)；打包的时候配置了自动忽略less文件
+
+[提高开发效率还可以安装vscode插件minapp](https://marketplace.visualstudio.com/items?itemName=qiu8310.minapp-vscode)
+
+
 [同时微信开发工具打开构建npm](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
 然后微信开发工具按下图配置
 
-![微信开发工具配置.png](https://upload-images.jianshu.io/upload_images/3105621-ac889498458ba256.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[微信开发工具配置.png](https://chuckboy.oss-cn-hangzhou.aliyuncs.com/github/wxMiniprogram/tool.png)
 
 
 ### 目录结构
